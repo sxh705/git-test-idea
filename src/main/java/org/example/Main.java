@@ -5,5 +5,6 @@ public class Main {
         System.out.println("Hello Git!");
         var a = "12345";
         System.out.println("a = " + a);
+        System.out.println("hello git3");
     }
 }
