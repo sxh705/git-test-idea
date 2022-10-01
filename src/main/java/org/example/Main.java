@@ -6,5 +6,6 @@ public class Main {
         var a = "12345";
         System.out.println("a = " + a);
         System.out.println("hello git3");
+        System.out.println("hello git4");
     }
 }
