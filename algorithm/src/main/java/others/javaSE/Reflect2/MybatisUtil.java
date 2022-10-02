@@ -7,7 +7,7 @@ public class MybatisUtil {
     public static void save(Object obj) {
         try (
                 //自动释放
-                PrintStream ps = new PrintStream(new FileOutputStream("src/data.txt", true));
+                PrintStream ps = new PrintStream(new FileOutputStream("src/data.txt", true))
         ) {
             var c = obj.getClass();
             ps.println("=================" + c.getSimpleName() + "=================");

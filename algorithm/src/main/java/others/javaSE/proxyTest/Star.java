@@ -1,7 +1,7 @@
 package others.javaSE.proxyTest;
 
 public class Star implements Skill {
-    private String name;
+    private final String name;
 
     public Star(String name) {
         this.name = name;

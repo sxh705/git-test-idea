@@ -21,7 +21,7 @@ class Node {
         left = _left;
         right = _right;
     }
-};
+}
 
 class Solution {
     Node nowPtr;
